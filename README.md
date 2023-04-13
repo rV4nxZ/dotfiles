@@ -9,7 +9,7 @@ sudo pacman -S bspwm kitty picom polybar rofi sxhkd zsh neofetch
 
 ### Clone this repo:
 ```
-git clone https://github.com/rV4nxZ/dotfiles.git; cd ./dotfiles
+git clone https://github.com/rV4nxZ/dotfiles.git && cd ./dotfiles
 ```
 
 ### Install dotfiles:
