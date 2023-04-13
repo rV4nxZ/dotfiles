@@ -2,9 +2,10 @@
 My (very first) bspwm dotfiles.
 
 # How to install:
+Asuming your AUR helper is paru:
 ### Install required dependencies:
 ```
-sudo pacman -S bspwm kitty picom polybar rofi sxhkd zsh neofetch
+paru -S bspwm kitty picom polybar rofi sxhkd zsh neofetch
 ```
 
 ### Clone this repo:
