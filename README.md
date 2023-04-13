@@ -1,5 +1,5 @@
 # dotfiles
-My bspwm dotfiles.
+My (very first) bspwm dotfiles.
 
 # How to install:
 ### Install required dependencies:
