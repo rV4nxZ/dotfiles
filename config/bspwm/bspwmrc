@@ -1,0 +1,38 @@
+#! /bin/sh
+
+pkill sxhkd
+pkill picom
+sxhkd &
+picom &
+
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh) 
+export SSH_AUTH_SOCK
+
+feh --bg-fill $HOME/Documents/wallpaper.jpg
+
+killall -q polybar
+
+bash ~/.config/polybar/launch.sh --hack
+
+xsetroot -cursor_name left_ptr &
+
+bspc monitor -d 1 2 3 4 5 6
+
+bspc config border_width         2
+bspc config window_gap          8
+
+bspc config top_padding		40
+bspc config botoom_padding	30
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Brave desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+picom --config $HOME/.config/picom/picom.conf &
