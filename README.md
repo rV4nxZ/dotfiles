@@ -16,5 +16,6 @@ git clone https://github.com/rV4nxZ/dotfiles.git; cd ./dotfiles
 ```
 cp -r ./config ~/.config
 cp -r ./home ~
+```
 
 ## You should be good :)
