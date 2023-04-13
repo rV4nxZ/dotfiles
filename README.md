@@ -14,8 +14,9 @@ git clone https://github.com/rV4nxZ/dotfiles.git; cd ./dotfiles
 
 ### Install dotfiles:
 ```
-cp -r ./config ~/.config
-cp -r ./home ~
+cp -r ./config ~/.config/
+cp -r ./home ~/
+cp wallpaper.jpg ~/Documents/
 ```
 
 ## You should be good :)
