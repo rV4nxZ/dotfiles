@@ -23,3 +23,4 @@ cp wallpaper.jpg ~/Documents/
 ```
 
 ## You should be good :)
+If you have any issue, open a issue request.
