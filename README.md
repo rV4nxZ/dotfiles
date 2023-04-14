@@ -5,7 +5,7 @@ My (very first) bspwm dotfiles.
 Asuming your AUR helper is paru:
 ### Install required dependencies:
 ```
-paru -S bspwm kitty picom polybar rofi sxhkd zsh neofetch polkit-gnome exa
+paru -S bspwm kitty picom polybar rofi sxhkd zsh neofetch polkit-gnome exa feh brightnessctl
 ```
 
 ### Clone this repo:
