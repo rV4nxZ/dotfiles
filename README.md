@@ -1,7 +1,7 @@
 # dotfiles
 My (very first) bspwm dotfiles.
 
-![bspwm}(https://i.ibb.co/DpcYjmS/2023-04-13-214805-1920x1200-scrot.png)
+![bspwm](https://i.ibb.co/DpcYjmS/2023-04-13-214805-1920x1200-scrot.png)
 
 # How to install:
 Asuming your AUR helper is paru:
